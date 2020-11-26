@@ -1,0 +1,54 @@
+/* Start Global Style*/
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+/* End Global Style*/
+
+/* Navigation Color Style */
+.bg-secondary {
+  background-color: rgb(0, 87, 128) !important;
+}
+
+/* Call To Action over State*/
+.btn-secondary:hover {
+  color: #fff;
+  background-color: rgb(0, 87, 128);
+  border-color: rgb(0, 87, 128);
+}
+
+/* Button Hover State*/
+.btn-primary:hover {
+  color: #fff;
+  background-color: navy;
+  border-color: navy;
+}
+
+/* About Text Background*/
+.s-p {
+  background: rgba(88, 90, 192, 0.171);
+}
+.is {
+  display: inline-block;
+  width: 450px;
+  vertical-align: middle;
+}

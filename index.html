@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KEXZ ART</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Used google fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My Costum Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/costum.css" />
+  </head>
+
+  <body>
+    <!-- Start NAvigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+      <!-- Start container -->
+      <div class="container bg-secondary">
+        <!-- Start Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="true"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- End button -->
+
+        <!-- Navbar brand -->
+        <a href="index.html" class="navbar-brand font-italic"> KexzArt </a>
+
+        <!-- start links -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <!-- Home -->
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <!-- Services -->
+            <li class="nav-item">
+              <a href="#services" class="nav-link">My Services</a>
+            </li>
+
+            <!-- About us -->
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+
+            <!-- Contact us -->
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Godwin Kenneth, </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">A pencil Artist</p>
+      <img src="./imgs/ken1.jpg" alt="My Profile Picture" class="intro__img" />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My works</h2>
+      <p class=".section__subtitle--work"></p>
+
+      <!-- Start Carousel -->
+
+      <div
+        id="carouselExampleIndicator"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            class="active"
+            data-target="#carouselExampleIndicator"
+            data-slide-to="0"
+          ></li>
+          <li data-target="#carouselExampleIndicator" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicator" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicator" data-slide-to="3"></li>
+        </ol>
+
+        <!-- start carousel inner -->
+        <div class="carousel-inner" role="listbox">
+          <!-- Start First Slide -->
+          <div
+            class="carousel-item active"
+            style="background-image: url(./imgs/work1.jpg)"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>First Slide</h3>
+              <p>The Description of the first Slide</p>
+            </div>
+          </div>
+          <!-- End First Slide -->
+
+          <!-- Start Second Slide -->
+          <div
+            class="carousel-item"
+            style="background-image: url(imgs/work2.jpg)"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Second Slide</h3>
+              <p>The Description of the Second Slide</p>
+            </div>
+          </div>
+          <!-- End Second Slide -->
+
+          <!-- Start Fourth Slide -->
+          <div
+            class="carousel-item"
+            style="background-image: url(imgs/work4.jpeg)"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Art for Mc Popori</h3>
+              <p>Using charcoal and graphite pencils on glossy paper</p>
+            </div>
+          </div>
+          <!-- End Fourth Slide -->
+
+          <!-- Start Third Slide -->
+          <div
+            class="carousel-item"
+            style="background-image: url(imgs/work3.jpg)"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Third Slide</h3>
+              <p>The Description of the Third Slide</p>
+            </div>
+          </div>
+          <!-- End Third Slide -->
+        </div>
+        <!-- End Carousel Inner -->
+
+        <!-- Start Previous -->
+        <a
+          href="#carouselExampleIndicator"
+          class="carousel-control-prev"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <!-- End Previous -->
+
+        <!-- Start Next -->
+        <a
+          href="#carouselExampleIndicator"
+          class="carousel-control-next"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"> </span>
+          <span class="sr-only">next</span>
+        </a>
+
+        <!-- End Next -->
+      </div>
+
+      <!-- End Carousel -->
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I Do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Portrait drawning</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+            neque iste nulla ex soluta! Voluptate eligendi error distinctio
+            molestias recusandae voluptatem ad cumque debitis praesentium. Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Aliquid neque
+            iste nulla ex soluta! Voluptate eligendi error distinctio molestias
+            recusandae voluptatem ad cumque debitis praesentium.
+          </p>
+        </div>
+        <!-- /service -->
+
+        <div class="service">
+          <h3>Sketching</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+            neque iste nulla ex soluta! Voluptate eligendi error distinctio
+            molestias recusandae voluptatem ad cumque debitis praesentium. Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Aliquid neque
+            iste nulla ex soluta! Voluptate eligendi error distinctio molestias
+            recusandae voluptatem ad cumque debitis praesentium.
+          </p>
+        </div>
+        <!-- /service -->
+
+        <div class="service">
+          <h3>Any other thing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+            neque iste nulla ex soluta! Voluptate eligendi error distinctio
+            molestias recusandae voluptatem ad cumque debitis praesentium. Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Aliquid neque
+            iste nulla ex soluta! Voluptate eligendi error distinctio molestias
+            recusandae voluptatem ad cumque debitis praesentium.
+          </p>
+        </div>
+        <!-- /service -->
+      </div>
+      <!-- /services -->
+      <a href="./portfolio-item.html" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        A natural Talented pencil artist out of IYUKU, Edo state.
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi
+          fugiat ipsa. Sit enim adipisci dolores qui libero quae, quam sed
+          molestiae, iusto ea quia, minus voluptatum magni numquam ad. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi
+          fugiat ipsa. Sit enim adipisci dolores qui libero quae, quam sed
+          molestiae, iusto ea quia, minus voluptatum magni numquam ad. sit.
+        </p>
+      </div>
+
+      <img src="./imgs/ken.jpg" alt="" class="about-me__img" />
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <!-- Send A message to my mail -->
+      <a href="mailto:gmcodes20@gmail.com" class="footer__link"
+        >Email @ Godwin</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://api.whatsapp.com/send?phone=2348088383666"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://facebook.com/gmcodes20"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://facebook.com/gmcodes20"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
